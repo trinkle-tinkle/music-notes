@@ -1,0 +1,28 @@
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: monospace;
+    font-size: 14px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+p.quote {
+    font-size: 0.9em;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-left: 1em;
+    border-left: 4px solid #ccc;
+    color: #555;
+    /*font-style: italic; */
+  }
+  
+@media (max-width: 600px) {
+    body {
+      max-width: 100%;
+      margin: 0;         /* Remove horizontal centering */
+      padding: 0 10px;   /* Smaller padding if needed */
+    }
+  }
