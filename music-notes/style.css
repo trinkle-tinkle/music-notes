@@ -3,7 +3,7 @@ ul {
 }
 
 body {
-    font-family: monospace;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 14px;
     max-width: 800px;
     margin: 0 auto;
@@ -28,7 +28,8 @@ p.quote {
   }
 
 img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     display: block; /* optional, helps avoid inline spacing issues */
+    margin: 0 auto; /* This centers the image horizontally */
 }
